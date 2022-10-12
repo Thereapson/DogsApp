@@ -1,0 +1,69 @@
+.Active_Panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000085;
+    border: 1px solid;
+    color: #000000;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    width: 25%;
+    padding-bottom: 250px;
+    /* padding: 100px 0px; */
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    min-height: 50vh;
+}
+
+.Not_Panel {
+    visibility: hidden;
+    position: absolute;
+}
+
+.apidb{
+    display: flex;
+}
+
+.boton {
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: small;
+    padding: 5px 8px;
+    font-family: 'Bitter', serif;
+    margin: 5px;
+}
+
+.boton:hover {
+    background-color: rgb(136, 75, 9);
+    color: rgb(16, 185, 154);
+    font-weight: bolder;
+    border: 2px solid;
+}
+
+
+@media (max-width: 500px) {
+    .Active_Panel {
+        width: 100%;
+        padding-top: 20px;
+        border-left: none;
+        border-bottom: 2px solid;
+    }
+
+    .Not_Panel {
+        width: 100%;
+        visibility: visible;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #00000085;
+        border-bottom: 2px solid;
+        color: white;
+        padding-top: 5px;
+    }
+}

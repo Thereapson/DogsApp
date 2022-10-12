@@ -1,0 +1,151 @@
+.container {
+    display: flex;
+}
+
+.img {
+    height: 180px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.cardB {
+    display: flex;
+    justify-content: center;
+    min-height: 92vh;
+    background: url(https://wallpaperaccess.com/full/266691.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.p1 {
+    display: flex;
+    background-color: #ff9100;
+    justify-content: space-around;
+    border: 2px;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    width: 280px;
+    border: 1px solid black;
+}
+
+.info {
+    background: #b3680585;
+    max-height: 90vh;
+    margin: 20px 0px;
+    padding: 0px 150px;
+    border-radius: 70px;
+    border: 2px solid #000;
+    color: rgb(2, 82, 46);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+
+
+.tp {
+    display: flex;
+    cursor: pointer;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: aliceblue;
+
+}
+
+.buton {
+    display: flex;
+    flex-direction: column;
+    background-color: #ff9100;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.detail {
+    display: flex;
+}
+
+.background {
+    background: url(https://wallpapercave.com/wp/wp9015368.jpg);
+    background-size: cover;
+    min-height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form {
+    background-color: #000000c7;
+    display: flex;
+    border-radius: 10px;
+    margin: 20px 100px;
+    padding: 15px 60px;
+    min-height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(138, 96, 10, 1);
+    justify-content: space-evenly;
+}
+
+.label {
+    background: transparent;
+    font-style: italic;
+    position: relative;
+    top: -30px;
+    font-size: small;
+}
+
+.divs {
+    display: flex;
+    background: transparent;
+    align-items: center;
+    font-weight: bold;
+}
+
+.good {
+    background-color: #adff2fa1;
+    width: 100%;
+    padding: 2px;
+    margin: 2px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.errors {
+    background-color: #b31515a8;
+    width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    color: white;
+    margin: 2px;
+}
+
+.send {
+    background: transparent;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #cacd00b5;
+    border-radius: 5px;
+    color: #cacd00b3;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.text {
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+.num {
+    max-width: 45px;
+    border-radius: 5px;
+    margin: 3px 6px;
+    padding: 2px 3px;
+}

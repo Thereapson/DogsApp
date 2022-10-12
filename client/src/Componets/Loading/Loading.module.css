@@ -1,0 +1,17 @@
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(https://images7.alphacoders.com/115/1151373.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.img {
+    height: 100px;
+    background: transparent;
+    position: center;
+}

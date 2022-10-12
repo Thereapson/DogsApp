@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+}
+
+.flecha {
+    margin: 1px 3px 20px;
+    height: 40px;
+    width: 40px;
+    background: #1a212170;
+    border-radius: 15%;
+    align-items: center;
+    color: #eeffcd;
+    font-weight: bold;
+    border: 1px solid black;
+    font-family: 'Macondo', cursive;
+}

@@ -1,0 +1,12 @@
+.botonot {
+    /* border: 1px solid rgb(255, 255, 255); */
+    color: aliceblue;
+    padding: 1px 5px;
+}
+
+.botonselect {
+    /* border: 1px solid rgb(25, 249, 0); */
+    color: rgb(254, 242, 0);
+    padding: 1px 5px;
+    font-weight: bold;
+}

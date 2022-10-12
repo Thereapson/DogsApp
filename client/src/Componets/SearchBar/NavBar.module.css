@@ -1,0 +1,69 @@
+.nav {
+    background: rgb(195, 104, 18);
+    background: linear-gradient(90deg, rgba(195, 104, 18, 1) 25%, rgba(172, 122, 47, 1) 50%, rgba(138, 96, 10, 1) 75%);
+    display: flex;
+    justify-content: space-around;
+    min-height: 40px;
+    align-items: center;
+    border: 2px solid #000000;
+    max-height: 43px;
+
+}
+
+.btnPanel {
+    height: 20px;
+}
+
+.btn {
+    background: transparent;
+    padding: 4px 20px;
+    color: #000000;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #000000;
+}
+
+.NavLink {
+    color: #000000;
+}
+
+.NavLink:hover {
+    color: #ffffff;
+}
+
+.input {
+    display: flex;
+    padding: 4px 10px;
+    color: #000000;
+    border: 2px solid #000000;
+    margin-top: 2px;
+}
+
+.btn2 {
+    background: transparent;
+    padding: 4px 20px;
+    color: #000000;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+.btn2:hover {
+    color: white;
+    background-color: #000000;
+}
+
+.btn3 {
+    background: transparent;
+    border-radius: 4px;
+    border: 2px ;
+    cursor: pointer;
+    
+}
+
+.sear{
+    display: flex;
+}

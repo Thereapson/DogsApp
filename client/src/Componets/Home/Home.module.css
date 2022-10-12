@@ -1,0 +1,87 @@
+.Card {
+    min-height: 150px;
+    max-width: 23%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #00000080;
+    margin: 5px;
+    border-radius: 30px;
+    align-items: center;
+    border: 2px solid #000;
+}
+
+.link {
+    color: aliceblue;
+    font-size: 20px;
+    font-family: fantasy;
+    margin-top: 18px;
+}
+
+.img {
+    max-height: 100px;
+    border: 2px solid #00000080;
+    border-radius: 3px;
+}
+
+.temper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.butons {
+    color: aliceblue;
+    height: 23px;
+    cursor: pointer;
+    background: transparent;
+    padding: 3px 13px;
+    margin: 3px 3px 10px;
+    border-radius: 6px;
+    border: solid 1px;
+    font-size: small;
+}
+.butons:hover{
+    background-color: rgb(136, 75, 9);
+    color: rgb(16, 185, 154);
+    font-weight: bolder;
+    border: 2px solid;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    padding-top: 6px;
+    min-height: 88vh;
+    min-width: 75%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.home {
+    display: flex;
+    background: url(https://wallpapercave.com/wp/wp9015480.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    /* align-items: baseline; */
+    min-height: 88vh;
+}
+
+.h1 {
+    display: flex;
+    font-family: italic;
+}
