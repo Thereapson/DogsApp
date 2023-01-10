@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./index.js",
-    "test": "mocha --timeout 40000 -w ./tests/**/*.spec.js"
+    "test": "mocha --timeout 40000 -w ./tests/**/*.spec.js",
+    "build": "CI=false"
   },
   "author": "Henry",
   "license": "ISC",
