@@ -9,6 +9,7 @@ import { Provider } from 'react-redux';
 import store from './Reducer/Store';
 
 import axios from 'axios';
+
 axios.defaults.baseURL = `https://dogsapp-production.up.railway.app`;
 
 
